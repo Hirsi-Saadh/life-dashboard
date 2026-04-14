@@ -86,9 +86,9 @@ export default function LockScreen({onUnlock}) {
                         </button>
                     </form>
 
-                    <p className="mt-6 text-center text-xs tracking-[0.22em] text-white/25">
-                        {formatDateHint(ACCESS_DATE_ISO)}
-                    </p>
+                    {/*<p className="mt-6 text-center text-xs tracking-[0.22em] text-white/25">*/}
+                    {/*    {formatDateHint(ACCESS_DATE_ISO)}*/}
+                    {/*</p>*/}
                 </div>
             </div>
         </div>
